@@ -17,6 +17,10 @@ class SearchTableViewCell: UITableViewCell {
     @IBOutlet weak var retailerName: UILabel!
     
     
+    
+    
+    
+    
     @IBOutlet weak var distance: UILabel!
     
     @IBOutlet weak var offers: UILabel!
