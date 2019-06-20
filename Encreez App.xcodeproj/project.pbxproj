@@ -7,15 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF5A7C1CDA8947C89632203E /* Pods_Encreez_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987792E9FC5CD54DE2C1EF17 /* Pods_Encreez_App.framework */; };
+		F81052832225523B00092044 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81052812225523B00092044 /* RewardsViewController.swift */; };
+		F81052882225526600092044 /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81052862225526600092044 /* ActivitiesViewController.swift */; };
+		F810528C2225527800092044 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F810528A2225527800092044 /* DetailsViewController.swift */; };
 		F813274B21D90DA7007DBF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F813274A21D90DA7007DBF07 /* AppDelegate.swift */; };
 		F813274D21D90DA7007DBF07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F813274C21D90DA7007DBF07 /* ViewController.swift */; };
 		F813275021D90DA7007DBF07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F813274E21D90DA7007DBF07 /* Main.storyboard */; };
 		F813275321D90DA7007DBF07 /* Encreez_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F813275121D90DA7007DBF07 /* Encreez_App.xcdatamodeld */; };
 		F813275521D90DA9007DBF07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F813275421D90DA9007DBF07 /* Assets.xcassets */; };
 		F813275821D90DA9007DBF07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F813275621D90DA9007DBF07 /* LaunchScreen.storyboard */; };
+		F81E3786226DD54600C81AC1 /* NoRetailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81E3785226DD54600C81AC1 /* NoRetailerViewController.swift */; };
+		F827DEFF221BFADD00806362 /* BranchMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827DEFE221BFADD00806362 /* BranchMapViewController.swift */; };
+		F82B30D622AD4AA700497199 /* LocalizationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82B30D522AD4AA700497199 /* LocalizationSystem.swift */; };
+		F82D9162223FEF0D00B2225F /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D9161223FEF0C00B2225F /* QRScannerViewController.swift */; };
+		F8443CAC22086DCC003E48B4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8443CAB22086DCC003E48B4 /* ProfileViewController.swift */; };
+		F844CF512206E6BA00AFAB3F /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844CF502206E6BA00AFAB3F /* CategoriesViewController.swift */; };
+		F844CF532207208500AFAB3F /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844CF522207208400AFAB3F /* CategoryTableViewCell.swift */; };
+		F844CF552207230800AFAB3F /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844CF542207230800AFAB3F /* Categories.swift */; };
+		F84A9E95223015FD00CDB526 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A9E94223015FD00CDB526 /* Activities.swift */; };
+		F84A9E97223016CC00CDB526 /* ActivityViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A9E96223016CC00CDB526 /* ActivityViewTableViewCell.swift */; };
+		F850E38D225F805100A4A60D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F850E38B225F804E00A4A60D /* FBSDKCoreKit.framework */; };
+		F850E38E225F805100A4A60D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F850E38C225F805100A4A60D /* FBSDKLoginKit.framework */; };
+		F859271E21EB735900F6FCB3 /* FindMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859271D21EB735900F6FCB3 /* FindMapViewController.swift */; };
+		F859272121EB7B7A00F6FCB3 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859272021EB7B7A00F6FCB3 /* Global.swift */; };
+		F859272321EB7CC300F6FCB3 /* WeLang.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859272221EB7CC300F6FCB3 /* WeLang.swift */; };
+		F85C93242240EC8200C5A250 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85C93232240EC8200C5A250 /* SearchViewController.swift */; };
+		F85ECA13222D496100731488 /* RewardsViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85ECA12222D496100731488 /* RewardsViewControllerCell.swift */; };
+		F85ECA15222D4A2E00731488 /* Rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85ECA14222D4A2E00731488 /* Rewards.swift */; };
+		F862BDC121E5DD77000FCF6D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F862BDC021E5DD77000FCF6D /* WelcomeViewController.swift */; };
+		F862BDC521E5FDC4000FCF6D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F862BDC421E5FDC4000FCF6D /* RegisterViewController.swift */; };
+		F862BDC721E5FDE2000FCF6D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F862BDC621E5FDE2000FCF6D /* LoginViewController.swift */; };
+		F862BDCA21E613FF000FCF6D /* ForgetPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F862BDC921E613FF000FCF6D /* ForgetPasswordController.swift */; };
+		F8779C102215670200D4DFEC /* NearByViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8779C0F2215670200D4DFEC /* NearByViewController.swift */; };
+		F8779C1222156A2600D4DFEC /* NearByViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8779C1122156A2600D4DFEC /* NearByViewControllerCell.swift */; };
+		F8797657224A336D0035CCC9 /* ShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8797656224A336D0035CCC9 /* ShopsViewController.swift */; };
+		F8797659224A383A0035CCC9 /* MyFavourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8797658224A383A0035CCC9 /* MyFavourites.swift */; };
+		F879765B224A405D0035CCC9 /* ShopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F879765A224A405D0035CCC9 /* ShopTableViewCell.swift */; };
+		F881F12022199F4500808403 /* BranchesOnMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F881F11F22199F4500808403 /* BranchesOnMap.swift */; };
+		F8940084220AEE8100F7379F /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8940083220AEE8100F7379F /* ChangePasswordViewController.swift */; };
+		F8940089220C39DC00F7379F /* UpdateInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8940088220C39DC00F7379F /* UpdateInfoViewController.swift */; };
+		F8A9CBF82222D0FD002F7D02 /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A9CBF72222D0FD002F7D02 /* CustomPointAnnotation.swift */; };
+		F8B1585721D912770002BB6C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B1585621D912770002BB6C /* Default-568h@2x.png */; };
+		F8BF61A521E4DA3300F139A4 /* selectLangController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF61A421E4DA3300F139A4 /* selectLangController.swift */; };
+		F8CC1C75225CCE2E0001845C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8CC1C74225CCE2E0001845C /* GoogleService-Info.plist */; };
+		F8CD72D1229A9FBB00029E4B /* addTranscationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD72D0229A9FBB00029E4B /* addTranscationViewController.swift */; };
+		F8E66DEB22353A5800854DBA /* ScanQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E66DEA22353A5800854DBA /* ScanQRViewController.swift */; };
+		F8EA558E22411BE800F4F763 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA558D22411BE800F4F763 /* SearchTableViewCell.swift */; };
+		F8EA559022411DAA00F4F763 /* SearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA558F22411DAA00F4F763 /* SearchData.swift */; };
+		F8F4915A22AE46B100182903 /* localizable .strings in Resources */ = {isa = PBXBuildFile; fileRef = F8F4915C22AE46B100182903 /* localizable .strings */; };
+		F8F4916222AE470900182903 /* L102Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F4916122AE470900182903 /* L102Language.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		987792E9FC5CD54DE2C1EF17 /* Pods_Encreez_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Encreez_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C54F7B8EF90496945E3DEA /* Pods-Encreez App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encreez App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Encreez App/Pods-Encreez App.debug.xcconfig"; sourceTree = "<group>"; };
+		D0021BA65C43ED59F5429AC7 /* Pods-Encreez App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encreez App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Encreez App/Pods-Encreez App.release.xcconfig"; sourceTree = "<group>"; };
+		F81052812225523B00092044 /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		F81052862225526600092044 /* ActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		F810528A2225527800092044 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		F813274721D90DA7007DBF07 /* Encreez App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Encreez App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F813274A21D90DA7007DBF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F813274C21D90DA7007DBF07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +74,63 @@
 		F813275421D90DA9007DBF07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F813275721D90DA9007DBF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F813275921D90DA9007DBF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81E3785226DD54600C81AC1 /* NoRetailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoRetailerViewController.swift; sourceTree = "<group>"; };
+		F822EE7E224B9F9600FF7652 /* Encreez App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Encreez App.entitlements"; sourceTree = "<group>"; };
+		F827DEFE221BFADD00806362 /* BranchMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchMapViewController.swift; sourceTree = "<group>"; };
+		F82B30D522AD4AA700497199 /* LocalizationSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationSystem.swift; sourceTree = "<group>"; };
+		F82D9161223FEF0C00B2225F /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		F8443CAB22086DCC003E48B4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F844CF502206E6BA00AFAB3F /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		F844CF522207208400AFAB3F /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		F844CF542207230800AFAB3F /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		F84A9E94223015FD00CDB526 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		F84A9E96223016CC00CDB526 /* ActivityViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewTableViewCell.swift; sourceTree = "<group>"; };
+		F850E38B225F804E00A4A60D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F850E38C225F805100A4A60D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F859271D21EB735900F6FCB3 /* FindMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMapViewController.swift; sourceTree = "<group>"; };
+		F859272021EB7B7A00F6FCB3 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		F859272221EB7CC300F6FCB3 /* WeLang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeLang.swift; sourceTree = "<group>"; };
+		F85C93232240EC8200C5A250 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F85ECA12222D496100731488 /* RewardsViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewControllerCell.swift; sourceTree = "<group>"; };
+		F85ECA14222D4A2E00731488 /* Rewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rewards.swift; sourceTree = "<group>"; };
+		F862BDC021E5DD77000FCF6D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F862BDC421E5FDC4000FCF6D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F862BDC621E5FDE2000FCF6D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F862BDC921E613FF000FCF6D /* ForgetPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordController.swift; sourceTree = "<group>"; };
+		F8770D3C22B67CC6004D9B43 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F8770D3D22B67CC9004D9B43 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		F8770D3E22B67CCA004D9B43 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/localizable .strings"; sourceTree = "<group>"; };
+		F8770D3F22B67CDB004D9B43 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F8770D4022B67CDB004D9B43 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		F8770D4122B67CDC004D9B43 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = "es.lproj/localizable .strings"; sourceTree = "<group>"; };
+		F8770D4222B67CF5004D9B43 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F8770D4322B67CF5004D9B43 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Main.strings"; sourceTree = "<group>"; };
+		F8770D4422B67CF6004D9B43 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/localizable .strings"; sourceTree = "<group>"; };
+		F8770D4522B67D64004D9B43 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F8770D4622B67D64004D9B43 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		F8770D4722B67D65004D9B43 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = "it.lproj/localizable .strings"; sourceTree = "<group>"; };
+		F8779C0F2215670200D4DFEC /* NearByViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByViewController.swift; sourceTree = "<group>"; };
+		F8779C1122156A2600D4DFEC /* NearByViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByViewControllerCell.swift; sourceTree = "<group>"; };
+		F8797656224A336D0035CCC9 /* ShopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsViewController.swift; sourceTree = "<group>"; };
+		F8797658224A383A0035CCC9 /* MyFavourites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavourites.swift; sourceTree = "<group>"; };
+		F879765A224A405D0035CCC9 /* ShopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTableViewCell.swift; sourceTree = "<group>"; };
+		F881F11F22199F4500808403 /* BranchesOnMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchesOnMap.swift; sourceTree = "<group>"; };
+		F8940083220AEE8100F7379F /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		F8940088220C39DC00F7379F /* UpdateInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateInfoViewController.swift; sourceTree = "<group>"; };
+		F8A9CBF72222D0FD002F7D02 /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		F8B1585621D912770002BB6C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F8BF61A421E4DA3300F139A4 /* selectLangController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectLangController.swift; sourceTree = "<group>"; };
+		F8CB7E202289659000B3A502 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F8CB7E212289659000B3A502 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		F8CB7E2322898F4000B3A502 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		F8CC1C74225CCE2E0001845C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F8CD72D0229A9FBB00029E4B /* addTranscationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTranscationViewController.swift; sourceTree = "<group>"; };
+		F8E66DEA22353A5800854DBA /* ScanQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRViewController.swift; sourceTree = "<group>"; };
+		F8EA558D22411BE800F4F763 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		F8EA558F22411DAA00F4F763 /* SearchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchData.swift; sourceTree = "<group>"; };
+		F8F4915B22AE46B100182903 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = "ar.lproj/localizable .strings"; sourceTree = "<group>"; };
+		F8F4916022AE46C700182903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/localizable .strings"; sourceTree = "<group>"; };
+		F8F4916122AE470900182903 /* L102Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L102Language.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +138,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5A7C1CDA8947C89632203E /* Pods_Encreez_App.framework in Frameworks */,
+				F850E38D225F805100A4A60D /* FBSDKCoreKit.framework in Frameworks */,
+				F850E38E225F805100A4A60D /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A6F4CB74D6073D3DE740923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F850E38B225F804E00A4A60D /* FBSDKCoreKit.framework */,
+				F850E38C225F805100A4A60D /* FBSDKLoginKit.framework */,
+				987792E9FC5CD54DE2C1EF17 /* Pods_Encreez_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D30CF4B5DAE340030A21626 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9C54F7B8EF90496945E3DEA /* Pods-Encreez App.debug.xcconfig */,
+				D0021BA65C43ED59F5429AC7 /* Pods-Encreez App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8105280222551FE00092044 /* consumerRewards */ = {
+			isa = PBXGroup;
+			children = (
+				F81052812225523B00092044 /* RewardsViewController.swift */,
+				F85ECA12222D496100731488 /* RewardsViewControllerCell.swift */,
+			);
+			path = consumerRewards;
+			sourceTree = "<group>";
+		};
+		F81052852225524200092044 /* consumerActivities */ = {
+			isa = PBXGroup;
+			children = (
+				F81052862225526600092044 /* ActivitiesViewController.swift */,
+				F84A9E96223016CC00CDB526 /* ActivityViewTableViewCell.swift */,
+			);
+			path = consumerActivities;
+			sourceTree = "<group>";
+		};
+		F810528E2225528300092044 /* consumerDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F810528A2225527800092044 /* DetailsViewController.swift */,
+			);
+			path = consumerDetails;
+			sourceTree = "<group>";
+		};
 		F813273E21D90DA7007DBF07 = {
 			isa = PBXGroup;
 			children = (
+				F8B1585621D912770002BB6C /* Default-568h@2x.png */,
 				F813274921D90DA7007DBF07 /* Encreez App */,
 				F813274821D90DA7007DBF07 /* Products */,
+				8D30CF4B5DAE340030A21626 /* Pods */,
+				2A6F4CB74D6073D3DE740923 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +214,214 @@
 		F813274921D90DA7007DBF07 /* Encreez App */ = {
 			isa = PBXGroup;
 			children = (
-				F813274A21D90DA7007DBF07 /* AppDelegate.swift */,
-				F813274C21D90DA7007DBF07 /* ViewController.swift */,
-				F813274E21D90DA7007DBF07 /* Main.storyboard */,
-				F813275421D90DA9007DBF07 /* Assets.xcassets */,
-				F813275621D90DA9007DBF07 /* LaunchScreen.storyboard */,
+				F8F4915122AE453A00182903 /* LocalizationStrings */,
+				F822EE7E224B9F9600FF7652 /* Encreez App.entitlements */,
+				F8BF61A221E4D9F500F139A4 /* gui */,
 				F813275921D90DA9007DBF07 /* Info.plist */,
-				F813275121D90DA7007DBF07 /* Encreez_App.xcdatamodeld */,
+				F8CC1C74225CCE2E0001845C /* GoogleService-Info.plist */,
+				F845973921D90ED7002DD563 /* Model */,
+				F845973B21D90EEA002DD563 /* View */,
+				F845973A21D90EE0002DD563 /* Controller */,
+				F845973C21D90F07002DD563 /* Supporting Files  */,
 			);
 			path = "Encreez App";
+			sourceTree = "<group>";
+		};
+		F827DEFD221BFA7B00806362 /* branchOnMap */ = {
+			isa = PBXGroup;
+			children = (
+				F827DEFE221BFADD00806362 /* BranchMapViewController.swift */,
+			);
+			path = branchOnMap;
+			sourceTree = "<group>";
+		};
+		F8443CAA22086DA7003E48B4 /* profileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F8443CAB22086DCC003E48B4 /* ProfileViewController.swift */,
+			);
+			path = profileScreen;
+			sourceTree = "<group>";
+		};
+		F844CF4F2206E69C00AFAB3F /* CategoriesHome */ = {
+			isa = PBXGroup;
+			children = (
+				F844CF502206E6BA00AFAB3F /* CategoriesViewController.swift */,
+				F844CF522207208400AFAB3F /* CategoryTableViewCell.swift */,
+			);
+			path = CategoriesHome;
+			sourceTree = "<group>";
+		};
+		F845973921D90ED7002DD563 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8A9CBF72222D0FD002F7D02 /* CustomPointAnnotation.swift */,
+				F859272221EB7CC300F6FCB3 /* WeLang.swift */,
+				F844CF542207230800AFAB3F /* Categories.swift */,
+				F881F11F22199F4500808403 /* BranchesOnMap.swift */,
+				F85ECA14222D4A2E00731488 /* Rewards.swift */,
+				F84A9E94223015FD00CDB526 /* Activities.swift */,
+				F8EA558F22411DAA00F4F763 /* SearchData.swift */,
+				F8797658224A383A0035CCC9 /* MyFavourites.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F845973A21D90EE0002DD563 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F813274A21D90DA7007DBF07 /* AppDelegate.swift */,
+				F813274C21D90DA7007DBF07 /* ViewController.swift */,
+				F813275421D90DA9007DBF07 /* Assets.xcassets */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F845973B21D90EEA002DD563 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F813275621D90DA9007DBF07 /* LaunchScreen.storyboard */,
+				F813274E21D90DA7007DBF07 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F845973C21D90F07002DD563 /* Supporting Files  */ = {
+			isa = PBXGroup;
+			children = (
+				F813275121D90DA7007DBF07 /* Encreez_App.xcdatamodeld */,
+			);
+			path = "Supporting Files ";
+			sourceTree = "<group>";
+		};
+		F859271C21EB732A00F6FCB3 /* FindOnMap */ = {
+			isa = PBXGroup;
+			children = (
+				F859271D21EB735900F6FCB3 /* FindMapViewController.swift */,
+				F85C93232240EC8200C5A250 /* SearchViewController.swift */,
+				F8EA558D22411BE800F4F763 /* SearchTableViewCell.swift */,
+				F8797656224A336D0035CCC9 /* ShopsViewController.swift */,
+				F879765A224A405D0035CCC9 /* ShopTableViewCell.swift */,
+				F81E3785226DD54600C81AC1 /* NoRetailerViewController.swift */,
+			);
+			path = FindOnMap;
+			sourceTree = "<group>";
+		};
+		F859271F21EB7B5900F6FCB3 /* Network Layer  */ = {
+			isa = PBXGroup;
+			children = (
+				F859272021EB7B7A00F6FCB3 /* Global.swift */,
+			);
+			path = "Network Layer ";
+			sourceTree = "<group>";
+		};
+		F862BDBF21E5DD42000FCF6D /* welcomepage */ = {
+			isa = PBXGroup;
+			children = (
+				F862BDC021E5DD77000FCF6D /* WelcomeViewController.swift */,
+			);
+			path = welcomepage;
+			sourceTree = "<group>";
+		};
+		F862BDC221E5FD2D000FCF6D /* login */ = {
+			isa = PBXGroup;
+			children = (
+				F862BDC621E5FDE2000FCF6D /* LoginViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		F862BDC321E5FD3A000FCF6D /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F862BDC421E5FDC4000FCF6D /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		F862BDC821E612F7000FCF6D /* Forgetpassword */ = {
+			isa = PBXGroup;
+			children = (
+				F862BDC921E613FF000FCF6D /* ForgetPasswordController.swift */,
+			);
+			path = Forgetpassword;
+			sourceTree = "<group>";
+		};
+		F8779C0E221566E100D4DFEC /* nearBy */ = {
+			isa = PBXGroup;
+			children = (
+				F8779C0F2215670200D4DFEC /* NearByViewController.swift */,
+				F8779C1122156A2600D4DFEC /* NearByViewControllerCell.swift */,
+			);
+			path = nearBy;
+			sourceTree = "<group>";
+		};
+		F8940082220AEE5F00F7379F /* changePassword */ = {
+			isa = PBXGroup;
+			children = (
+				F8940083220AEE8100F7379F /* ChangePasswordViewController.swift */,
+			);
+			path = changePassword;
+			sourceTree = "<group>";
+		};
+		F8940087220C39C200F7379F /* updateMyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				F8940088220C39DC00F7379F /* UpdateInfoViewController.swift */,
+			);
+			path = updateMyInfo;
+			sourceTree = "<group>";
+		};
+		F8AD472C223150A70064EB2F /* redeemRetailer */ = {
+			isa = PBXGroup;
+			children = (
+				F8E66DEA22353A5800854DBA /* ScanQRViewController.swift */,
+				F82D9161223FEF0C00B2225F /* QRScannerViewController.swift */,
+				F8CD72D0229A9FBB00029E4B /* addTranscationViewController.swift */,
+			);
+			path = redeemRetailer;
+			sourceTree = "<group>";
+		};
+		F8BF61A221E4D9F500F139A4 /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				F8AD472C223150A70064EB2F /* redeemRetailer */,
+				F810528E2225528300092044 /* consumerDetails */,
+				F81052852225524200092044 /* consumerActivities */,
+				F8105280222551FE00092044 /* consumerRewards */,
+				F827DEFD221BFA7B00806362 /* branchOnMap */,
+				F8779C0E221566E100D4DFEC /* nearBy */,
+				F8940087220C39C200F7379F /* updateMyInfo */,
+				F8940082220AEE5F00F7379F /* changePassword */,
+				F8443CAA22086DA7003E48B4 /* profileScreen */,
+				F844CF4F2206E69C00AFAB3F /* CategoriesHome */,
+				F859271F21EB7B5900F6FCB3 /* Network Layer  */,
+				F859271C21EB732A00F6FCB3 /* FindOnMap */,
+				F862BDC821E612F7000FCF6D /* Forgetpassword */,
+				F862BDC321E5FD3A000FCF6D /* Register */,
+				F862BDC221E5FD2D000FCF6D /* login */,
+				F862BDBF21E5DD42000FCF6D /* welcomepage */,
+				F8BF61A321E4DA0100F139A4 /* selectlanguage  */,
+			);
+			path = gui;
+			sourceTree = "<group>";
+		};
+		F8BF61A321E4DA0100F139A4 /* selectlanguage  */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF61A421E4DA3300F139A4 /* selectLangController.swift */,
+				F82B30D522AD4AA700497199 /* LocalizationSystem.swift */,
+				F8F4916122AE470900182903 /* L102Language.swift */,
+			);
+			path = "selectlanguage ";
+			sourceTree = "<group>";
+		};
+		F8F4915122AE453A00182903 /* LocalizationStrings */ = {
+			isa = PBXGroup;
+			children = (
+				F8F4915C22AE46B100182903 /* localizable .strings */,
+			);
+			path = LocalizationStrings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +431,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F813275C21D90DA9007DBF07 /* Build configuration list for PBXNativeTarget "Encreez App" */;
 			buildPhases = (
+				F979F213BC6A2731DD1859C0 /* [CP] Check Pods Manifest.lock */,
 				F813274321D90DA7007DBF07 /* Sources */,
 				F813274421D90DA7007DBF07 /* Frameworks */,
 				F813274521D90DA7007DBF07 /* Resources */,
+				DFAFE4876182EE45E4DA60B0 /* [CP] Embed Pods Frameworks */,
+				F9A852772271D026DC720CC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +459,15 @@
 				TargetAttributes = {
 					F813274621D90DA7007DBF07 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -109,6 +478,11 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				fr,
+				es,
+				"pt-PT",
+				it,
 			);
 			mainGroup = F813273E21D90DA7007DBF07;
 			productRefGroup = F813274821D90DA7007DBF07 /* Products */;
@@ -125,7 +499,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F4915A22AE46B100182903 /* localizable .strings in Resources */,
 				F813275821D90DA9007DBF07 /* LaunchScreen.storyboard in Resources */,
+				F8B1585721D912770002BB6C /* Default-568h@2x.png in Resources */,
+				F8CC1C75225CCE2E0001845C /* GoogleService-Info.plist in Resources */,
 				F813275521D90DA9007DBF07 /* Assets.xcassets in Resources */,
 				F813275021D90DA7007DBF07 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +510,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DFAFE4876182EE45E4DA60B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Encreez App/Pods-Encreez App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Encreez App/Pods-Encreez App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F979F213BC6A2731DD1859C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Encreez App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9A852772271D026DC720CC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Encreez App/Pods-Encreez App-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Encreez App/Pods-Encreez App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F813274321D90DA7007DBF07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F813274D21D90DA7007DBF07 /* ViewController.swift in Sources */,
+				F881F12022199F4500808403 /* BranchesOnMap.swift in Sources */,
+				F810528C2225527800092044 /* DetailsViewController.swift in Sources */,
+				F8940089220C39DC00F7379F /* UpdateInfoViewController.swift in Sources */,
+				F859272121EB7B7A00F6FCB3 /* Global.swift in Sources */,
+				F84A9E97223016CC00CDB526 /* ActivityViewTableViewCell.swift in Sources */,
+				F844CF552207230800AFAB3F /* Categories.swift in Sources */,
+				F82B30D622AD4AA700497199 /* LocalizationSystem.swift in Sources */,
+				F8CD72D1229A9FBB00029E4B /* addTranscationViewController.swift in Sources */,
+				F8EA558E22411BE800F4F763 /* SearchTableViewCell.swift in Sources */,
+				F84A9E95223015FD00CDB526 /* Activities.swift in Sources */,
+				F85ECA15222D4A2E00731488 /* Rewards.swift in Sources */,
+				F8EA559022411DAA00F4F763 /* SearchData.swift in Sources */,
+				F82D9162223FEF0D00B2225F /* QRScannerViewController.swift in Sources */,
+				F879765B224A405D0035CCC9 /* ShopTableViewCell.swift in Sources */,
+				F8779C1222156A2600D4DFEC /* NearByViewControllerCell.swift in Sources */,
+				F862BDC521E5FDC4000FCF6D /* RegisterViewController.swift in Sources */,
+				F85C93242240EC8200C5A250 /* SearchViewController.swift in Sources */,
 				F813274B21D90DA7007DBF07 /* AppDelegate.swift in Sources */,
+				F8443CAC22086DCC003E48B4 /* ProfileViewController.swift in Sources */,
+				F859271E21EB735900F6FCB3 /* FindMapViewController.swift in Sources */,
+				F8779C102215670200D4DFEC /* NearByViewController.swift in Sources */,
+				F85ECA13222D496100731488 /* RewardsViewControllerCell.swift in Sources */,
+				F862BDCA21E613FF000FCF6D /* ForgetPasswordController.swift in Sources */,
+				F8E66DEB22353A5800854DBA /* ScanQRViewController.swift in Sources */,
+				F827DEFF221BFADD00806362 /* BranchMapViewController.swift in Sources */,
+				F8797659224A383A0035CCC9 /* MyFavourites.swift in Sources */,
+				F81052832225523B00092044 /* RewardsViewController.swift in Sources */,
+				F859272321EB7CC300F6FCB3 /* WeLang.swift in Sources */,
+				F81E3786226DD54600C81AC1 /* NoRetailerViewController.swift in Sources */,
+				F8F4916222AE470900182903 /* L102Language.swift in Sources */,
+				F8797657224A336D0035CCC9 /* ShopsViewController.swift in Sources */,
+				F81052882225526600092044 /* ActivitiesViewController.swift in Sources */,
+				F862BDC721E5FDE2000FCF6D /* LoginViewController.swift in Sources */,
+				F862BDC121E5DD77000FCF6D /* WelcomeViewController.swift in Sources */,
+				F8940084220AEE8100F7379F /* ChangePasswordViewController.swift in Sources */,
+				F8BF61A521E4DA3300F139A4 /* selectLangController.swift in Sources */,
+				F844CF532207208500AFAB3F /* CategoryTableViewCell.swift in Sources */,
+				F844CF512206E6BA00AFAB3F /* CategoriesViewController.swift in Sources */,
+				F8A9CBF82222D0FD002F7D02 /* CustomPointAnnotation.swift in Sources */,
 				F813275321D90DA7007DBF07 /* Encreez_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +665,12 @@
 			isa = PBXVariantGroup;
 			children = (
 				F813274F21D90DA7007DBF07 /* Base */,
+				F8CB7E212289659000B3A502 /* ar */,
+				F8CB7E2322898F4000B3A502 /* en */,
+				F8770D3D22B67CC9004D9B43 /* fr */,
+				F8770D4022B67CDB004D9B43 /* es */,
+				F8770D4322B67CF5004D9B43 /* pt-PT */,
+				F8770D4622B67D64004D9B43 /* it */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +679,26 @@
 			isa = PBXVariantGroup;
 			children = (
 				F813275721D90DA9007DBF07 /* Base */,
+				F8CB7E202289659000B3A502 /* ar */,
+				F8770D3C22B67CC6004D9B43 /* fr */,
+				F8770D3F22B67CDB004D9B43 /* es */,
+				F8770D4222B67CF5004D9B43 /* pt-PT */,
+				F8770D4522B67D64004D9B43 /* it */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F8F4915C22AE46B100182903 /* localizable .strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8F4915B22AE46B100182903 /* ar */,
+				F8F4916022AE46C700182903 /* en */,
+				F8770D3E22B67CCA004D9B43 /* fr */,
+				F8770D4122B67CDC004D9B43 /* es */,
+				F8770D4422B67CF6004D9B43 /* pt-PT */,
+				F8770D4722B67D65004D9B43 /* it */,
+			);
+			name = "localizable .strings";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +708,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +769,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -282,17 +822,27 @@
 		};
 		F813275D21D90DA9007DBF07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C54F7B8EF90496945E3DEA /* Pods-Encreez App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Encreez App/Encreez App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5N6982ZMG8;
+				DEVELOPMENT_TEAM = CHZ4FWG4G5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Encreez App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.razytech.Encreez-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razytech.EnreezAPP9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Encreez App/gui/selectlanguage /Encreez App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +850,26 @@
 		};
 		F813275E21D90DA9007DBF07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0021BA65C43ED59F5429AC7 /* Pods-Encreez App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Encreez App/Encreez App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5N6982ZMG8;
+				DEVELOPMENT_TEAM = CHZ4FWG4G5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Encreez App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.razytech.Encreez-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razytech.EnreezAPP9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Encreez App/gui/selectlanguage /Encreez App-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

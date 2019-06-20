@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>468625325912-2qu00hmufvrii7hoiaddec5vdoi9ndbc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.468625325912-2qu00hmufvrii7hoiaddec5vdoi9ndbc</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>468625325912-1hslgn48m14oeg3n49735bh3cugmo8nn.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBxlfgkYA9qW76J7F5G7Jq9qR_APQV9EfU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>468625325912</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.razytech.EnreezAPP9</string>
+	<key>PROJECT_ID</key>
+	<string>encreez-211207</string>
+	<key>STORAGE_BUCKET</key>
+	<string>encreez-211207.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:468625325912:ios:043629c5d4a633b0</string>
+	<key>DATABASE_URL</key>
+	<string>https://encreez-211207.firebaseio.com</string>
+</dict>
+</plist>
