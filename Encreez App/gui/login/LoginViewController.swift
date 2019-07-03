@@ -89,9 +89,6 @@ class LoginViewController : UIViewController {
            
         }
         
-        
-        // Do any additional setup after loading the view.
-        
         self.signInBtn.layer.cornerRadius = 17
         self.signInBtn.clipsToBounds = true
         self.signUpBtn.layer.cornerRadius = 17
@@ -188,15 +185,6 @@ class LoginViewController : UIViewController {
     @objc func tapReconizer(tapRec : UITapGestureRecognizer)  {
         view.endEditing(true)
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
     func isValidEmail(testStr:String) -> Bool
     {
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
