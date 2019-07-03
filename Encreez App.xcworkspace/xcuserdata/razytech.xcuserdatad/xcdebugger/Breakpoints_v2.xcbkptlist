@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encreez App/gui/consumerRewards/RewardsViewController.swift"
+            timestampString = "581767268.205819"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encreez App/gui/branchOnMap/BranchMapViewController.swift"
+            timestampString = "582567578.2415119"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "BranchMapViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Encreez_App.BranchMapViewController.retailer.getter : Swift.Array&lt;Encreez_App.BranchesOnMap&gt;"
+                  moduleName = "Encreez App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/review/Encreez%20App/Encreez%20App/gui/branchOnMap/BranchMapViewController.swift"
+                  timestampString = "580305363.175842"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Encreez_App.BranchMapViewController.retailer.setter : Swift.Array&lt;Encreez_App.BranchesOnMap&gt;"
+                  moduleName = "Encreez App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/review/Encreez%20App/Encreez%20App/gui/branchOnMap/BranchMapViewController.swift"
+                  timestampString = "580305363.1776659"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Encreez_App.BranchMapViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Encreez_App.BranchMapViewController"
+                  moduleName = "Encreez App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/review/Encreez%20App/Encreez%20App/gui/branchOnMap/BranchMapViewController.swift"
+                  timestampString = "580305363.1794389"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Encreez_App.BranchMapViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Encreez_App.BranchMapViewController&gt;"
+                  moduleName = "Encreez App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/review/Encreez%20App/Encreez%20App/gui/branchOnMap/BranchMapViewController.swift"
+                  timestampString = "580305363.181186"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "376">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encreez App/gui/branchOnMap/BranchMapViewController.swift"
+            timestampString = "582567578.24158"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "BranchMapViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Encreez_App.BranchMapViewController.rewardsBranchData.getter : Swift.Array&lt;Encreez_App.Rewards&gt;"
+                  moduleName = "Encreez App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/review/Encreez%20App/Encreez%20App/gui/branchOnMap/BranchMapViewController.swift"
+                  timestampString = "580305363.162915"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Encreez_App.BranchMapViewController.rewardsBranchData.setter : Swift.Array&lt;Encreez_App.Rewards&gt;"
+                  moduleName = "Encreez App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/review/Encreez%20App/Encreez%20App/gui/branchOnMap/BranchMapViewController.swift"
+                  timestampString = "580305363.1650079"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Encreez_App.BranchMapViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Encreez_App.BranchMapViewController"
+                  moduleName = "Encreez App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/review/Encreez%20App/Encreez%20App/gui/branchOnMap/BranchMapViewController.swift"
+                  timestampString = "580305363.1668611"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Encreez_App.BranchMapViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Encreez_App.BranchMapViewController&gt;"
+                  moduleName = "Encreez App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/review/Encreez%20App/Encreez%20App/gui/branchOnMap/BranchMapViewController.swift"
+                  timestampString = "580305363.168728"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encreez App/gui/branchOnMap/BranchMapViewController.swift"
+            timestampString = "582567578.241629"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "BranchMapViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Encreez_App.BranchMapViewController.rewardsBranchData.getter : Swift.Array&lt;Encreez_App.Rewards&gt;"
+                  moduleName = "Encreez App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/review/Encreez%20App/Encreez%20App/gui/branchOnMap/BranchMapViewController.swift"
+                  timestampString = "580305360.160524"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Encreez_App.BranchMapViewController.rewardsBranchData.setter : Swift.Array&lt;Encreez_App.Rewards&gt;"
+                  moduleName = "Encreez App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/review/Encreez%20App/Encreez%20App/gui/branchOnMap/BranchMapViewController.swift"
+                  timestampString = "580305360.163462"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Encreez_App.BranchMapViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Encreez_App.BranchMapViewController"
+                  moduleName = "Encreez App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/review/Encreez%20App/Encreez%20App/gui/branchOnMap/BranchMapViewController.swift"
+                  timestampString = "580305360.165764"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Encreez_App.BranchMapViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Encreez_App.BranchMapViewController&gt;"
+                  moduleName = "Encreez App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/review/Encreez%20App/Encreez%20App/gui/branchOnMap/BranchMapViewController.swift"
+                  timestampString = "580305360.167685"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encreez App/gui/login/LoginViewController.swift"
+            timestampString = "583169621.534772"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "loginWithEmailOrPass(url:parameters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encreez App/gui/nearBy/NearByViewControllerCell.swift"
+            timestampString = "582030829.7907"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encreez App/gui/FindOnMap/ShopsViewController.swift"
+            timestampString = "582480409.546157"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "favorBtn(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encreez App/gui/consumerRewards/RewardsViewController.swift"
+            timestampString = "581767268.206329"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encreez App/gui/FindOnMap/FindMapViewController.swift"
+            timestampString = "582990373.272423"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encreez App/gui/FindOnMap/FindMapViewController.swift"
+            timestampString = "582990373.272487"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encreez App/gui/Forgetpassword/ForgetPasswordController.swift"
+            timestampString = "583169621.535291"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "resetBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encreez App/gui/Forgetpassword/ForgetPasswordController.swift"
+            timestampString = "583169621.535345"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "resetPass(url:parameters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encreez App/gui/Forgetpassword/ForgetPasswordController.swift"
+            timestampString = "583169621.535404"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "resetPass(url:parameters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

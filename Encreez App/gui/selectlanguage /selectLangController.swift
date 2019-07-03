@@ -219,10 +219,7 @@ class SelectLangController: UIViewController , UIPickerViewDelegate , UIPickerVi
                 })
         }
         
-        let laterAction = UIAlertAction(title: actiontwo , style: .cancel) {
-            (alert) -> Void in
-            self.dismiss(animated: true, completion: nil)
-        }
+        let laterAction = UIAlertAction(title: actiontwo , style: UIAlertActionStyle.default, handler: nil) 
         
         exitAppAlert.addAction(resetApp)
         exitAppAlert.addAction(laterAction)

@@ -84,6 +84,10 @@ class WelcomeViewController: UIViewController , CLLocationManagerDelegate {
        let longLoc = locationManager?.location?.coordinate.longitude ?? 0
         
         
+        UserDefaults.standard.set(latLoc , forKey: "Lat")
+        
+        UserDefaults.standard.set(longLoc , forKey: "Long")
+        
         if (self.app_Lang == "ar") {
             
             LocalizationSystem.sharedInstance.setLanguage(languageCode: "ar")

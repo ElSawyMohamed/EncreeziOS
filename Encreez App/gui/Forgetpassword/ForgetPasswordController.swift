@@ -12,7 +12,7 @@ import SwiftyJSON
 
 class ForgetPasswordController: UIViewController {
     
-    let forgUrl : String = "\(Global.baseUrl)/Account/ForgetPassword"
+    let forgUrl : String = "\(Global.baseUrl)/api/Account/ForgetPassword"
    
     var langRig = UserDefaults.standard.string(forKey: "Lang")
     
@@ -45,24 +45,37 @@ class ForgetPasswordController: UIViewController {
 
     @IBAction func resetBtn(_ sender: Any) {
         
-        if NetworkReachabilityManager()!.isReachable == false {
-            let alert = UIAlertController(title: "Warning", message: "There is no internet connection ,Connect to internet and try again ", preferredStyle: .actionSheet)
-            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-            Global.FixIpadActionsheet(alert: alert, controller: self)
-            
-            self.present(alert, animated: true, completion: nil)
+        Global.loadIndicator(view: view)
+        
+        if emailForget.text?.isEmpty == true
+        {
+         
+            if self.langRig == "ar"
+            {
+                let alert = UIAlertController(title: "تحذير", message: "لم يتم ادخال البريدالإلكتروني", preferredStyle: .actionSheet)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                Global.FixIpadActionsheet(alert: alert, controller: self)
+                self.present(alert, animated: true, completion: nil)
+            }
+            else
+            {
+                
+                let alert = UIAlertController(title: "Warning", message: "Your Email is Empty", preferredStyle: .actionSheet)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                Global.FixIpadActionsheet(alert: alert, controller: self)
+                self.present(alert, animated: true, completion: nil)
+            }
         }
         
-       else if !isValidEmail(testStr: emailForget.text!)  {
-            
+      else if !isValidEmail(testStr: emailForget.text!)  {
             if self.langRig == "ar"
             {
                 let alert = UIAlertController(title: "تحذير", message: "البريدالإلكتروني غير صحيح", preferredStyle: .actionSheet)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
                 Global.FixIpadActionsheet(alert: alert, controller: self)
                 self.present(alert, animated: true, completion: nil)
-            
-        }
+                
+            }
             else
             {
                 
@@ -71,11 +84,13 @@ class ForgetPasswordController: UIViewController {
                 Global.FixIpadActionsheet(alert: alert, controller: self)
                 self.present(alert, animated: true, completion: nil)
             }
+        
+          
         }
         else
         {
-         resetPass(url: forgUrl, parameters: ["Email" : self.emailForget.text!])
-         dismiss(animated: true, completion: nil)
+         resetPass(url: forgUrl, parameters: ["Email" : emailForget.text!])
+         
         }
         
     }
@@ -86,56 +101,51 @@ class ForgetPasswordController: UIViewController {
     
     
     func resetPass (url : String , parameters :[String : String ])  {
-        Alamofire.request(url , method: .post, parameters : parameters ).responseJSON {
-            response in
+        Alamofire.request(url , method: .post, parameters : parameters ).responseJSON { response in
             if response.result.isSuccess
             {
+                Global.stopIndicator()
                 let dataJSON = JSON(response.result.value!)
                 let forgMess = dataJSON["Message"].string!
                 let stat = dataJSON["Status"].bool
-             
+                
                 if stat == true
                 {
                     if self.langRig == "ar"
                     {
                         let alert = UIAlertController(title: "تم", message: forgMess, preferredStyle: .actionSheet)
-                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: self.dismissView))
                         Global.FixIpadActionsheet(alert: alert, controller: self)
                         self.present(alert, animated: true, completion: nil)
-                        
-               
                     }
                     else
                     {
                         let alert = UIAlertController(title: "Done", message: forgMess, preferredStyle: .actionSheet)
-                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: self.dismissView))
                         Global.FixIpadActionsheet(alert: alert, controller: self)
                         self.present(alert, animated: true, completion: nil)
-                    
                     }
+                }
+                 else
+                 {
+                if self.langRig == "ar"
+                {
+                    let alert = UIAlertController(title: "تحذير", message: "البريدالإلكتروني غير صحيح", preferredStyle: .actionSheet)
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                    Global.FixIpadActionsheet(alert: alert, controller: self)
+                    self.present(alert, animated: true, completion: nil)
+                    
                 }
                 else
                 {
-                    if self.langRig == "ar"
-                    {
-                        let alert = UIAlertController(title: "تحذير", message: "لم يتم ادخال البريدالإلكتروني", preferredStyle: .actionSheet)
-                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-                        Global.FixIpadActionsheet(alert: alert, controller: self)
-                        self.present(alert, animated: true, completion: nil)
-                      
-                    }
-                    else
-                    {
-                 
-                        let alert = UIAlertController(title: "Warning", message: "Your Email is Empty", preferredStyle: .actionSheet)
-                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-                        Global.FixIpadActionsheet(alert: alert, controller: self)
-                        self.present(alert, animated: true, completion: nil)
-                    }
                     
+                    let alert = UIAlertController(title: "Warning", message: "Email is Invalid", preferredStyle: .actionSheet)
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                    Global.FixIpadActionsheet(alert: alert, controller: self)
+                    self.present(alert, animated: true, completion: nil)
                 }
-                
-                
+
+              }
             }
             else
             {
@@ -144,24 +154,18 @@ class ForgetPasswordController: UIViewController {
                     let alert = UIAlertController(title: "تحذير", message: "حاول مرة اخري", preferredStyle: .actionSheet)
                     alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
                     Global.FixIpadActionsheet(alert: alert, controller: self)
-                    
                     self.present(alert, animated: true, completion: nil)
-                  
                 }
                 else
                 {
                     let alert = UIAlertController(title: "Warning", message: "Please Try again Later", preferredStyle: .actionSheet)
                     alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
                     Global.FixIpadActionsheet(alert: alert, controller: self)
-                    
                     self.present(alert, animated: true, completion: nil)
                     
                 }
             }
-            
         }
-        
-        
     }
     func isValidEmail(testStr:String) -> Bool {
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
@@ -172,5 +176,8 @@ class ForgetPasswordController: UIViewController {
     
     @objc func tapReconizer(tapRec : UITapGestureRecognizer)  {
         view.endEditing(true)
+    }
+    func dismissView(alert : UIAlertAction )  {
+        dismiss(animated: true, completion: nil)
     }
 }

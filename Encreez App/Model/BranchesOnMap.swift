@@ -25,6 +25,8 @@ struct BranchesOnMap {
     
     init(json:JSON) {
         
+        
+        
         self.retailerId = json["retailerId"].string ?? ""
         self.Name = json["Name"].string ?? ""
         self.Image = json["Image"].string ?? ""
@@ -37,3 +39,5 @@ struct BranchesOnMap {
         self.IsFavorite = json["IsFavorite"].bool!
     }
 }
+
+

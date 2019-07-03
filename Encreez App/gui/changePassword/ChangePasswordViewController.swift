@@ -71,7 +71,7 @@ class ChangePasswordViewController: UIViewController {
     
     @IBAction func changPassBtn(_ sender: Any) {
         
-    
+    Global.loadIndicator(view: view)
       
         if (oldPass.text?.isEmpty)!
         {
@@ -183,17 +183,28 @@ class ChangePasswordViewController: UIViewController {
             if response.result.isSuccess
             {
                 Global.stopIndicator()
-                let dataJSON = JSON(response.result.value!)
-                let welMess = dataJSON["Message"].string!
-    
-                
+                if self.Lang == "ar"
+                {
+                    let alert = UIAlertController(title: "تم", message: "تم تغيير كلمة السر بنجاح", preferredStyle: .actionSheet)
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: self.dismissView ))
+                    Global.FixIpadActionsheet(alert: alert, controller: self)
+                    self.present(alert, animated: true, completion: nil)
+                    
+                }
+                else
+                {
+                    let alert = UIAlertController(title: "Suceess", message: "Password changed successfully", preferredStyle: .actionSheet)
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: self.dismissView ))
+                    Global.FixIpadActionsheet(alert: alert, controller: self)
+                    self.present(alert, animated: true, completion: nil)
+                }
             }
             else
             {
                 if self.Lang == "ar"
                 {
                     let alert = UIAlertController(title: "تحذير", message: "حاول مرة اخري", preferredStyle: .actionSheet)
-                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil ))
                     Global.FixIpadActionsheet(alert: alert, controller: self)
                     
                     self.present(alert, animated: true, completion: nil)
@@ -203,7 +214,7 @@ class ChangePasswordViewController: UIViewController {
                 
                     
                     let alert = UIAlertController(title: "Warning", message: "Please Try again Later", preferredStyle: .actionSheet)
-                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil ))
                     Global.FixIpadActionsheet(alert: alert, controller: self)
                     
                     self.present(alert, animated: true, completion: nil)
@@ -236,5 +247,9 @@ class ChangePasswordViewController: UIViewController {
     
     @objc func tapReconizer(tapRec : UITapGestureRecognizer)  {
         view.endEditing(true)
+    }
+    
+    func dismissView(alert : UIAlertAction )  {
+        dismiss(animated: true, completion: nil)
     }
 }
