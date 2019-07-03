@@ -183,6 +183,10 @@ class RegisterViewController: UIViewController , GIDSignInDelegate , GIDSignInUI
     @IBAction func btn_signup(_ sender: UIButton) {
         
      //  let genderId = Int(genId.selectedSegmentIndex)+1
+     // new Changes
+        
+        
+        
       
         if(nameTxt.text?.isEmpty)!{
             if self.langRig == "ar"
